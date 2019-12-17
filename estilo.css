@@ -1,0 +1,12 @@
+
+.titulo{
+    text-align: center;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+}
+body{
+background-image: url("https://i.redd.it/j4de462sfq431.png");
+background-size: 100%;
+background-repeat: no-repeat;
+background-color: black;
+}
