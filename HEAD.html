@@ -11,14 +11,30 @@
     <header class="menu principal">
         <div class="titulo">C H E R N O B Y L</div>
         <div class="header-2">
-
-            <ul class="menu">
-                <li><a href="episodios.html">EPISODIOS</a></li>
-                <li><a href="elenco.html">ELENCO</a></li>
-                <li><a href="bilheteria.html">BILHETERIA</a></li>
-                <li><a href="critica.html">RECEPÇÃO DA CRITICA </a></li>
-                <li><a href="curiosidades.html">CURIOSIDADES</a></li>
-            </ul>
+                <div class="Topbar">
+                        <hr></div>
+                        <div class="navbar">
+                        <a href="index.html">PÁGINA PRINCIPAL</a> 
+                        <a href="index2.html">ELENCO</a>
+                            <a href="index3.html">BILHETERIA E RECEPÇÃO DA CRITICA</a>
+                            <a href="index4.html">CURIOSIDADES</div>
+                        <div class="dropdown">
+                            <button class="dropbtn">EPISODIOS 
+                            <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                            <a href="index2.html">Episodio 1 - </a>
+                            <a href="index3.html">Episodio 2 - </a>
+                            <a href="index4.html">Episodio 3 - </a>
+                            <a href="index5.html">Episodio 4 - </a>
+                            <a href="index5.html">Episodio 5 - </a>
+                            <a href="index5.html">Episodio 6 - </a>
+                            </div>
+                            
+                            
+                            
+                        </div> 
+                        </div><br>
         </div>
 
     </header>
@@ -60,7 +76,6 @@
     }
 
     .header-2 {
-        background-color: black;
         height: 30px;
         font-family: 'BazarMedium', 'Franklin Gothic Medium';
         font-size: large;
@@ -69,4 +84,63 @@
     .menu{
         float:inline-start;
     }
+    .navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: rgb(217, 255, 0);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 </style>
